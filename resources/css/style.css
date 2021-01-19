@@ -1,0 +1,182 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-image: url("https://www.designyourway.net/diverse/darkpat/COLOURlovers.com-Gothic_Wallpaper.jpg");
+
+}
+
+/* Navigation Bar */
+
+nav {
+  background-image: linear-gradient(to bottom right,rgb(34, 56, 56), rgb(35, 95, 45));
+  /*background-image: url(https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2017/08/shutterstock_263685161.jpg);*/
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* filter: drop-shadow(1px 1px 1px black) */
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.navbar ul {
+  text-align: center;
+  padding: 0px;
+  float: right;
+  line-height: 26px;
+}
+
+
+.navbar li {
+  display: inline-block;
+  padding: 2px 30px;
+}
+
+.navbar a {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.navbar-img {
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  border: 1px solid hsl(0, 0%, 100%);
+  float: left;
+  margin: 5px 20px;
+}
+
+/* Header */
+
+header {
+  /*background-image: url(https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2019/04/shutterstock_407554567-compressor-1.jpg);*/
+  /*background-color: hsl(0, 0%, 18%);*/
+  /*margin-top: 180px;*/
+  /*background-image: linear-gradient(hsl(0, 0%, 18%), hsl(0, 0%, 0%));*/
+  margin: 52px 0px;
+  padding: 10px;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 65px;
+  font-weight: bold;
+  color: hsl(0, 100%, 100%);
+  filter: drop-shadow(1px 1px 1px black);
+  text-shadow:
+  -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+    margin-bottom: 20px;
+}
+
+.header-subtitle {
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+    opacity: 0.9;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid hsl(0, 0%, 100%);
+}
+
+
+/*  Header background pic NOT IN USE */
+.bg-image {
+  background-image: url("./images/profile big.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+} 
+
+
+/* Introduction */
+
+#introduction p {
+  font-size: 27px;
+  padding: 0px 100px;
+  margin-bottom: 75px;
+}
+
+#introduction h3 {
+  font-size: 35px;
+  text-align: center;
+  color: lightblue;
+}
+
+#introduction {
+  padding: 20px 0px
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+
+/* Main */
+
+main {
+  width: 50%;
+  margin: auto;
+}
+
+#skills,
+#employment {
+  /*background-color: rgb(34, 56, 56);*/
+  background-image: linear-gradient(to bottom right,rgb(34, 56, 56), rgb(35, 95, 95));
+  margin: 50px;
+  border-radius: 30px;
+  padding: 10px 50px;
+  line-height: 1.5;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+main h3 {
+  color: lightblue;
+  text-align: left;
+  font-size: 25px;
+}
+
+li {
+  list-style: square;
+}
+
+
+p,
+ul {
+  color: rgb(190, 190, 190);
+}
+
+
+
+/* Footer */
+
+footer {
+  font-size: 12px;
+  color: white;
+  border-top: 1px solid rgb(255, 255, 255);
+  background-image: linear-gradient(hsl(0, 0%, 0%), hsl(0, 0%, 10%));
+  padding:30px 50px;
+  left: 0;
+}
+
+h3.footer {
+  color: darkgreen;
+}
+
+
+
+
+
